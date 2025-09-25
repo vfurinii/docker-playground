@@ -11,6 +11,11 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>docker-playground</name>
     <description>POCs e estudos com Docker, Kubernetes e Cloud Native</description>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>docker/spring-boot-app</module>
+    </modules>
 
     <properties>
         <java.version>23</java.version>
