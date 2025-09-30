@@ -147,9 +147,9 @@ A ideia é servir como um **playground** para aprender, testar e evoluir em conc
 ## 🔹 Roadmap de Estudos
 
 1. **Docker Básico**
-   - Criar uma imagem simples (`hello-world`).
-   - Containerizar um app Spring Boot e React.
-   - Subir no DockerHub.
+   - Criar uma imagem simples (`hello-world`).   -  done
+   - Containerizar um app Spring Boot e Java.    - done
+   - Subir no DockerHub.                         - done
 
 2. **Kubernetes Essencial**
    - Deploy de aplicações no cluster.
