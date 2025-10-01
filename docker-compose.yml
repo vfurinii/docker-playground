@@ -1,0 +1,32 @@
+version: "3.9"
+
+services:
+  spring-boot-app:
+    build:
+      context: ./docker/spring-boot-app
+    container_name: spring-boot-app
+    ports:
+      - "8080:8080"
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:h2:mem:testdb
+      - SPRING_DATASOURCE_USERNAME=sa
+      - SPRING_DATASOURCE_PASSWORD=
+    networks:
+      - app-network
+
+  frontend:
+    build:
+      context: ./docker/frontend
+    container_name: frontend
+    ports:
+      - "3000:80"
+    environment:
+      - REACT_APP_API_URL=http://spring-boot-app:8080/users
+    depends_on:
+      - spring-boot-app
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
