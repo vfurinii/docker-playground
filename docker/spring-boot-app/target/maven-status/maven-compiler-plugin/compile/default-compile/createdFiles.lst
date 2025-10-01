@@ -1,4 +1,6 @@
+com\vitorfurini\UserRepository.class
+com\vitorfurini\config\WebConfig$1.class
+com\vitorfurini\config\WebConfig.class
 com\vitorfurini\MainApplication.class
 com\vitorfurini\UserController.class
-com\vitorfurini\UserRepository.class
 com\vitorfurini\User.class

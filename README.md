@@ -1,31 +1,32 @@
 # docker-playground
 
 🚀 Roadmap de POCs com Docker e Kubernetes
-🔹 Etapa 1 – Fundamentos (Docker + K8s básico)
 
-Hello World
+# Etapa 1 – Fundamentos (Docker + K8s básico)
 
-App Spring Boot simples (/hello) containerizado no Docker.
+## Hello World
 
-Push no DockerHub.
+ - App Spring Boot simples (/hello) containerizado no Docker.
 
-Deploy no Minikube (ou Kind).
+ - Push no DockerHub.
 
-Criar Deployment + Service.
+ - Deploy no Minikube (ou Kind).
 
-Frontend + Backend
+- Criar Deployment + Service.
 
-Backend Spring Boot REST.
+## Frontend + Backend
 
-Frontend React simples.
+- Backend Spring Boot REST.
 
-Docker Compose para rodar local.
+- Frontend React simples.
 
-Depois, Deployment + Service no K8s.
+- Docker Compose para rodar local.
 
-App + Banco de Dados
+- Depois, Deployment + Service no K8s.
 
-Spring Boot + PostgreSQL (Docker).
+- App + Banco de Dados
+
+- Spring Boot + PostgreSQL (Docker).
 
 Migrar para K8s com PVC (PersistentVolumeClaim).
 
