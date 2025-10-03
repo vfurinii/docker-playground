@@ -153,7 +153,7 @@ A ideia é servir como um **playground** para aprender, testar e evoluir em conc
    - Subir no DockerHub.                         - done
 
 2. **Kubernetes Essencial**
-   - Deploy de aplicações no cluster.
+   - Deploy de aplicações no cluster. done
    - Configurar Services e Ingress.
    - Persistência com Volumes.
 
