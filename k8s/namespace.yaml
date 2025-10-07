@@ -1,0 +1,34 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: backend
+  namespace: poc-apps
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: backend
+  template:
+    metadata:
+      labels:
+        app: backend
+    spec:
+      containers:
+        - name: backend
+          image: vitorfurini/spring-boot-app:latest
+          ports:
+            - containerPort: 8080
+          env:
+            - name: SPRING_DATASOURCE_URL
+              value: jdbc:h2:file:/data/h2/testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+            - name: SPRING_DATASOURCE_DRIVER_CLASS_NAME
+              value: org.h2.Driver
+            - name: SPRING_JPA_HIBERNATE_DDL_AUTO
+              value: update
+          volumeMounts:
+            - name: h2-storage
+              mountPath: /data/h2
+      volumes:
+        - name: h2-storage
+          persistentVolumeClaim:
+            claimName: h2-pvc
