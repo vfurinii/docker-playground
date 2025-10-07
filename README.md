@@ -154,7 +154,7 @@ A ideia é servir como um **playground** para aprender, testar e evoluir em conc
 
 2. **Kubernetes Essencial**
    - Deploy de aplicações no cluster. done
-   - Configurar Services e Ingress.
+   - Configurar Services e Ingress. done
    - Persistência com Volumes.
 
 3. **Escalabilidade**
