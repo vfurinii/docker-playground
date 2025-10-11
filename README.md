@@ -155,7 +155,7 @@ A ideia é servir como um **playground** para aprender, testar e evoluir em conc
 2. **Kubernetes Essencial**
    - Deploy de aplicações no cluster. done
    - Configurar Services e Ingress. done
-   - Persistência com Volumes.
+   - Persistência com Volumes. done
 
 3. **Escalabilidade**
    - Horizontal Pod Autoscaler (HPA).
