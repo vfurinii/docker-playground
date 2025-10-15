@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb0a6b7c-2098-48f5-a933-a2f40f54c836" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+    <list default="true" id="82729ff0-6523-4ad0-b005-564192f0e734" name="Changes" comment="added pvc h2">
+      <change beforePath="$PROJECT_DIR$/k8s/spring-boot-app.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s/spring-boot-app.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
