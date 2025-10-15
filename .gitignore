@@ -1,1 +1,11 @@
 /docker/spring-boot-app/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+
+docker/frontend/node_modules/.bin/
+
+docker/frontend/node_modules/.cache/
+
+docker/frontend/node_modules/
+
+.idea/
+
+docker/spring-boot-app/target/classes/com/vitorfurini/config/
