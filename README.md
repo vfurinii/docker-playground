@@ -158,7 +158,7 @@ A ideia é servir como um **playground** para aprender, testar e evoluir em conc
    - Persistência com Volumes. done
 
 3. **Escalabilidade**
-   - Horizontal Pod Autoscaler (HPA).
+   - Horizontal Pod Autoscaler (HPA). done
    - Testes de carga com k6 ou Gatling.
 
 4. **Observabilidade**
