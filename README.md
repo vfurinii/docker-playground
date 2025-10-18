@@ -159,7 +159,7 @@ A ideia é servir como um **playground** para aprender, testar e evoluir em conc
 
 3. **Escalabilidade**
    - Horizontal Pod Autoscaler (HPA). done
-   - Testes de carga com k6 ou Gatling.
+   - Testes de carga com k6 ou Gatling. in progress
 
 4. **Observabilidade**
    - Instalar Prometheus + Grafana.
