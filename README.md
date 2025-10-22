@@ -162,7 +162,7 @@ A ideia é servir como um **playground** para aprender, testar e evoluir em conc
    - Testes de carga com k6 ou Gatling. done
 
 4. **Observabilidade**
-   - Instalar Prometheus + Grafana.
+   - Instalar Prometheus + Grafana. in progress
    - Coletar métricas e visualizar dashboards.
 
 5. **CI/CD**
