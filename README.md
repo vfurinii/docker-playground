@@ -108,25 +108,25 @@ Usar Istio ou Linkerd para roteamento de tráfego gradual.
 
 🔹 Etapa 5 – Multi-Tenancy e Segurança
 
-ConfigMaps e Secrets Avançados
+Advanced ConfigMaps and Secrets
 
-App que usa variáveis de ambiente sensíveis (ex: credencial AWS S3).
+Application that uses sensitive environment variables (e.g., AWS S3 credentials).
 
-Injetar via Secret.
+Inject via Secret.
 
-Gerenciar configs por namespace.
+Manage configurations by namespace.
 
-Multi-Namespace / Multi-Tenant
+Multi-namespace/multi-tenant
 
-Criar namespaces diferentes para clientes distintos.
+Create different namespaces for different clients.
 
-Subir a mesma app isolada em cada namespace.
+Run the same isolated application in each namespace.
 
-Usar NetworkPolicies para isolar tráfego.
+Use NetworkPolicies to isolate traffic.
 
-Segurança com ServiceAccounts e RBAC
+Security with ServiceAccounts and RBAC
 
-Configurar permissões para que uma aplicação só consiga acessar o que precisa.
+Configure settings so that an application can access what it needs.
 
 
 # 🚀 Docker & Kubernetes Labs
