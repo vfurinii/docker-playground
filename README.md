@@ -1,6 +1,6 @@
 # docker-playground
 
-🚀 Roadmap de POCs com Docker e Kubernetes
+🚀 Roadmap of POCs with Docker and Kubernetes
 
 # Etapa 1 – Fundamentos (Docker + K8s básico)
 
